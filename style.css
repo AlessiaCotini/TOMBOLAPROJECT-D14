@@ -57,3 +57,10 @@ main h1{
 #imgDiv{
     text-align: center;
 }
+#bottoneId:active {
+  outline: 4px solid #1577bdeb;
+  outline-offset: -4px;
+  transform: scale(0.98);
+  transition: 0.1s;
+  cursor: pointer;
+}
